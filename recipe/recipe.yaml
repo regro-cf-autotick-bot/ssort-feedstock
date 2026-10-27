@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: ssort
-  version: "0.17.0"
+  version: "0.19.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/ssort-${{ version }}.tar.gz
-  sha256: acfb38409476520c3e25541c282f7cef92017900d859f6b12bea48da4334b194
+  sha256: 1bff036a4a2d831becc822b4e11eae6e4f8bfb3e386ee207b082469d3b604a6a
 
 build:
   number: 0
